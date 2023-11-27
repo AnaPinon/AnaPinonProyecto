@@ -1,0 +1,97 @@
+.zona-central {
+    height: 540px;
+    padding-top: 40px;
+    background: linear-gradient(to right, #363941,#3f424b, #1d1f20, black);
+    display: grid;
+    grid-template-columns: 60% 40%;
+    
+}
+
+.zona-central > .zona-central-izquierda {
+    display: flex;
+    flex-direction:column;
+    padding-left: 40px;
+   
+}
+
+.zona-central > .zona-central-izquierda > .texto-icono {
+    color:white;
+    font-family:'Open Sans', sans-serif;
+    font-size: 2.5em;
+    align-items: baseline;
+
+}
+span.social {
+    font-weight: bolder;
+}
+
+.zona-central> .zona-central-izquierda > .texto-inferior {
+    font-family:'Open Sans', sans-serif; 
+    font-size: 2em;
+    color: white;
+    opacity: 50%;
+    display: flex;
+}
+
+.zona-central > .zona-central-izquierda > .botones {
+    width: 475px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.zona-central > .zona-central-izquierda > .botones > .boton-verde {
+    width: 250px;
+    height: 60px;
+    background-color: #4bce79;
+    border-radius: 2px;
+    font-family:'Tahoma', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color:black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.zona-central > .zona-central-izquierda > .botones > .boton-negro {
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    border-radius: 2px;
+    font-family:'Tahoma', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.zona-central >.zona-central-derecha {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.zona-central > .zona-central-derecha > .imagen-wrapper {
+    width: 100%;
+    height: 500px;
+    background-image: url(imagenes/lmr7a8E.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top: 10px;
+  
+}
+
+.zona-central> .zona-central-derecha > .titulo-imagen {
+    color:white;
+    font-family:'Tahoma', sans-serif;
+    font-size: 1.2em;
+}
+
+span.azul {
+    color: #78dafd
+}
